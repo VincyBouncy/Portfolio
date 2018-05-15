@@ -1,0 +1,170 @@
+body {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-family: "Helvetica";
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight:normal;
+}
+
+img {
+  height: 1.5rem;
+  margin-bottom: 0.2rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+a {
+  display: flex;
+  font-family: Helvetica;
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: cadetblue;
+  font-weight: bold;
+  border-bottom: 1px solid cadetblue ;
+}
+
+span {
+  display: inline-block;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.main-banner {
+  background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t31.0-8/22135770_10213074942764286_6368629758557153894_o.jpg?oh=0422a07ccfb03495f9ff9204f394c874&oe=5B4DE84D");
+  display: flex;
+  height: 30rem;
+  width: 100%;
+  background-size: cover;
+  margin-bottom: 3rem;
+}
+
+.container {
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner {
+  background-color: cadetblue;
+  margin-top: 2rem;
+  font-family: "Helvetica";
+  color: white;
+  display: inline-block;
+}
+
+.nav-bar {
+  display: inline-block;
+  align-items: left;
+  margin-left: 15rem;
+  margin-right: 2.5rem;
+}
+
+.nav-bar span {
+  display: flex-column;
+  align-items: center;
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+}
+
+.img-text {
+  align-self: flex-start;
+  padding: 2rem 5rem;
+  margin-top: 10rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  right: 2rem;
+  text-transform: uppercase;
+}
+
+.img-section {
+  margin: auto;
+  width: 928px;
+  display: flex;
+  height: 8rem;
+}
+
+.img-pic {
+  width: 20rem;
+}
+
+.img-pic img {
+  width: 5rem;
+  Height: 4.6rem;
+}
+
+.img-pic span {
+  display: column;
+  font-family: "Helvetica";
+  font-size: 18px;
+}
+
+.content {
+  display: flex;
+}
+
+.caption {
+  width: 35%;
+  margin: auto;
+  height: 11rem;
+}
+
+.caption-title {
+  width: 17rem;
+  height: 3rem;
+  background-color: cadetblue;
+  font-size: 1rem;
+  font-family: "Helvetica";
+  color: white;
+}
+
+.caption-text {
+  font-family: "Helvetica";
+}
+
+/*OffSet Stylings*/
+
+.off-set {
+  height: 3rem;
+}
+
+/*FOOTER Stylings*/
+
+.footer {
+  background-color: azure;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+}
+
+.logo {
+  height: 3rem;
+  width: auto;
+  margin: 0 1rem;
+}
+
+h4 {
+  display: flex-column;
+  font-family: "Helvetica";
+  text-align: center;
+  font-size: 2rem;
+}
+
+.footer .logo {
+  margin: 0;
+  padding-left: 26rem;
+  padding-right: 27.5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 2.5rem;
+  display: flex-column;
+}
